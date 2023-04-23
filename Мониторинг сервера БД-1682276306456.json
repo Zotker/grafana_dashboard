@@ -353,7 +353,7 @@
           },
           "editorMode": "code",
           "expr": "100 - (avg by(instance) (rate(node_cpu_seconds_total{instance=\"$hostname_node_exporter\",mode=\"idle\"}[2m])) * 100)",
-          "legendFormat": "CPU usage",
+          "legendFormat": "ЦП",
           "range": true,
           "refId": "A"
         }
@@ -600,7 +600,7 @@
           },
           "editorMode": "code",
           "expr": "(node_memory_MemTotal_bytes{instance=\"$hostname_node_exporter\"} / 1024 / 1024 / 1024) - (node_memory_MemAvailable_bytes{instance=\"$hostname_node_exporter\"} / 1024 / 1024 / 1024)",
-          "legendFormat": "RAM usage",
+          "legendFormat": "RAM",
           "range": true,
           "refId": "A"
         },
@@ -612,7 +612,7 @@
           "editorMode": "code",
           "expr": "(node_memory_SwapTotal_bytes{instance=\"$hostname_node_exporter\"} / 1024 / 1024 / 1024) - (node_memory_SwapFree_bytes{instance=\"$hostname_node_exporter\"} / 1024 / 1024 / 1024)",
           "hide": false,
-          "legendFormat": "SWAP usage",
+          "legendFormat": "SWAP",
           "range": true,
           "refId": "B"
         }
@@ -822,7 +822,7 @@
       },
       "gridPos": {
         "h": 7,
-        "w": 2,
+        "w": 3,
         "x": 0,
         "y": 21
       },
@@ -886,8 +886,8 @@
       },
       "gridPos": {
         "h": 7,
-        "w": 2,
-        "x": 2,
+        "w": 3,
+        "x": 3,
         "y": 21
       },
       "id": 50,
@@ -949,8 +949,8 @@
       },
       "gridPos": {
         "h": 7,
-        "w": 2,
-        "x": 4,
+        "w": 3,
+        "x": 6,
         "y": 21
       },
       "id": 24,
@@ -1047,8 +1047,8 @@
       },
       "gridPos": {
         "h": 7,
-        "w": 18,
-        "x": 6,
+        "w": 15,
+        "x": 9,
         "y": 21
       },
       "id": 30,
@@ -2179,6 +2179,6 @@
   "timezone": "browser",
   "title": "Мониторинг сервера БД",
   "uid": "deJSHEA4z",
-  "version": 96,
+  "version": 97,
   "weekStart": ""
 }

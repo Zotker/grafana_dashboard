@@ -1,6 +1,8 @@
 # Дашборд мониторинга
 Дашборд для мониторинга ресурсов сервера базы данных. 
 
+![example](https://github.com/Zotker/grafana_dashboard/assets/108451609/b5bc6312-7fad-459c-9a10-3dc0b1b72ddb)
+
 Преднеазначен для доставки данных в grafana из prometheus.
 
 В данном дашборде используется node_exporter, postgres_exporter + кастомные запросы.

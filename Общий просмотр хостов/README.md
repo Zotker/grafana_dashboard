@@ -1,4 +1,4 @@
-![sashka](images/3.png)
+![sashka](../images/3.png)
 
 Настройка полей происходит через `Transformations` в дашборде
 

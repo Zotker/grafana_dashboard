@@ -4,4 +4,4 @@
 enabled = true
 ```
 
-![sashka](images/1.png)
+![sashka](../images/1.png)

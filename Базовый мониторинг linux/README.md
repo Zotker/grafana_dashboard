@@ -4,4 +4,4 @@
 
 Обе должны быть добавлены как лейблы в Prometheus. Основной лейбл выбора дашборда - `app`.
 
-![sashka](images/2.png)
+![sashka](../images/2.png)
